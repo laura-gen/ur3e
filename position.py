@@ -1,4 +1,4 @@
-# Initialise le robot ur3e à une certaine position.
+# On initialise le robot ur3e à une certaine position.
 # Commande pour initialiser les joints aux positions [32, -84, 90, -138, -118, 179] : ros2 topic pub /joints_position trajectory_msgs/JointTrajectory "{joint_names: [], points: [{positions: [32, -84, 90, -138, -118, 179], time_from_start: {sec: 3}}]}"
 
 import rclpy 
